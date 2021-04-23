@@ -2,10 +2,10 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Alert } from "react-bootstrap";
-import PublicNavbar from "components/PublicNavbar";
+import PublicNavbar from "./components/PublicNavbar";
 import UserList from "./components/UserList";
 import { ClipLoader } from "react-spinners";
-import SearchForm from "components/SearchForm";
+import SearchForm from "./components/SearchForm";
 import { useSelector } from "react-redux";
 
 const App = () => {
