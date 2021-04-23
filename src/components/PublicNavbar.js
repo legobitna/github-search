@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import logo from "../images/logo.svg";
-import githubIco from "./images/github_icon.png";
+import githubIco from "../images/github_icon.png";
 
 const PublicNavbar = () => {
   return (
