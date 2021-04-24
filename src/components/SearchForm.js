@@ -13,7 +13,7 @@ const SearchForm = () => {
     if (searchInput == "") {
       dispatch(searchActions.clearDisplay());
       return;
-    } else if (searchInput.length < 2) return;
+    } else if (searchInput.length < 3) return;
     const searchUser = () => {
       dispatch(searchActions.searchUser(searchInput));
     };
