@@ -11,3 +11,32 @@
 .text-grey {
   color: #657786;
 }
+
+.repo-item{
+  border-bottom:1px solid #d0d7de;
+  text-align: left;
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
+  padding-right: 16px !important;
+  padding-left: 16px !important;
+
+}
+.repo-item h3{
+  color:#0969da;
+}
+.dot-box{
+  width:12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right:5px;
+  display: inline-block;
+}
+.html{
+  background-color: #e34c26;
+}
+.javascript{
+  background-color: #f1e05a;
+}
+.css{
+ background-color: #563d7c
+}

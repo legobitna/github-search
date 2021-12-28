@@ -6,9 +6,6 @@ import githubIco from "../images/github_icon.png";
 const PublicNavbar = () => {
   return (
     <Navbar bg="light" expand="lg">
-      <Navbar.Brand className="mr-auto">
-        <img src={logo} alt="Skedulo" width="200px" />
-      </Navbar.Brand>
       <Nav className="mr-auto"></Nav>
       <Nav>
         <a href="https://github.com/legobitna/github-search" target="_blank">

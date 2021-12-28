@@ -1,6 +1,7 @@
 import React from "react";
 import { Media } from "react-bootstrap";
 import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 const UserList = () => {
   const users = useSelector((state) => state.users);
@@ -14,8 +15,13 @@ const UserList = () => {
 };
 
 const Item = ({ item }) => {
+  const navigate = useNavigate();
   return (
-    <Media as="li" className="issue mb-5">
+    <Media
+      as="li"
+      className="issue mb-5"
+      onClick={() => navigate(`/repos/${item.login}`)}
+    >
       <img src={item.avatar_url} alt="User Avatar" className="avatar mr-3" />
       <Media.Body className="text-left">
         <h4>
